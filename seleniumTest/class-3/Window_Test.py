@@ -23,6 +23,8 @@ print("New Tab Title: ", driver.title)
 print("Tab: ", driver.find_element(By.ID, "sampleHeading").text)
 time.sleep(4)
 driver.close()
+
+
 time.sleep(4)
 driver.switch_to.window(windStr)
 
